@@ -1,0 +1,28 @@
+||Insights and Observations||
+
+As the problem size gets bigger (m + n) we see that the Basic Algorithm ends up taking more
+and more memory, which falls in line with our understanding of the basic dynamic
+programming algorithm, which comes out a O(m*n) space complexity. The space efficient
+algorithm returns a more linear memory usage which falls in line with its O(m + n)
+space complexity.
+
+In terms of time, we see that the basic algorithm tends to be faster, while the
+recursive divide and conquer algorithm is a little slower than the basic algorithm. This is in
+line with the theoretical observations we made while comparing the basic and memory efficient algorithms.
+At the same time, the extra time taken by divide and conquer can also be attributed to the fact that the memory efficient algorithm is recursive in approach compared to the basic algorithm which is iterative in approach. Recursive programs tend to perform slower than iterative programs. So we believe in addition to the theoretical comparison, the memory efficient algorithm being recursive adds up to why the memory efficient algorithm is slower than the basic algorithm.
+
+||Project Contribution||
+Mayank Goyal
+- Wrote code to read in the files as well as generate the full strings to be used
+as input for the algorithms.
+- Implemented the Basic Dynamic Programming version of Sequence Alignment.
+
+Yiqian (3452732650)
+- Tested code on a Linux Virtual Machine and implemented final memory calculation.
+- Implemented the Space Efficient Divide and Conquer version of Sequence Alignment
+along with Ashley.
+
+Ashley Yu-Chih (7061834756)
+- Implemented the Space Efficient Divide and Conquer version of Sequence Alignment
+along with Yiqian.
+- Implemented writing out to an output file.
